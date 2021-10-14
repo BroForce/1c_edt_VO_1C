@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+
+<HTML>
+
+<HEAD>
+<META content="text/html; charset=1251" http-equiv=Content-Type></META>
+<META content=IE=8 http-equiv=X-UA-Compatible></META><LINK rel=stylesheet type=text/css href="__STYLE__"></LINK>
+<STYLE>
+.group_active {
+ BORDER: #f7f3f0 1px solid; 
+ TEXT-ALIGN: left; 
+ FONT-STYLE: oblique; 
+ OUTLINE: none; 
+ WIDTH: 100%; 
+ FONT-FAMILY: Georgia; 
+ BACKGROUND: #f7f3f0;
+ HEIGHT: 32px;
+ FONT-SIZE: 15pt;
+ text-indent:5px;
+ cursor: default;
+}
+.item {
+ BORDER: #f7f3f0 1px solid; 
+ TEXT-ALIGN: left; 
+ FONT-FAMILY: Tahoma; 
+ FONT-SIZE: 10pt; 
+ OUTLINE: none;  
+ WIDTH: 100%; 
+ BACKGROUND: #f7f3f0; 
+ HEIGHT: 29px;
+ text-indent:15px;
+ cursor: default;
+}
+.group_passive {
+ BORDER: 0px;
+ TEXT-ALIGN: left;
+ FONT-FAMILY: Georgia;
+ FONT-SIZE: 15pt; 
+ FONT-STYLE: oblique; 
+ OUTLINE: none;
+ WIDTH: 100%; 
+ BACKGROUND: #fbfbfb; 
+ HEIGHT: 32px; 
+ COLOR: #999999; 
+ text-indent:5px;
+ background-image: url('1.png'); 
+ background-repeat:no-repeat;
+ cursor: default;
+}
+
+.group_down {
+ BORDER: 0px;
+ OUTLINE: none;
+ WIDTH: 100%; 
+ HEIGHT: 32px; 
+ background-image: url('1.png'); 
+ background-repeat:no-repeat;
+}
+BODY {
+ MARGIN: 0px;
+}
+</STYLE>
+</HEAD>
+<BODY scroll=no bgColor=#fcfaeb>
+<table cellspacing=0 cellpadding=0 id=Табл WIDTH=100%>
+
+<tr><td id=АккордеонЗадачи88 class=group_active style ="background-image: url('1.png'); background-repeat:no-repeat;">Задачи</td></tr>
+<tr><td id=АккордеонМои88 class=item>На мне</td></tr>
+<tr><td id=АккордеонОтМеня88 class=item>От меня</td></tr>
+<tr><td id=АккордеонНаКонтроле88 class=item>На контроле</td></tr>
+<tr><td id=АккордеонНераспределенные88 class=item>Разобрать</td></tr>
+
+<tr><td id=АккордеонУчет87 style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_passive>Учет</td></tr>
+<tr><td id=АккордеонПолученные81 style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_passive>Полученные</td></tr>
+<tr><td id=АккордеонОтправленные82 style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_passive>Отправленные</td></tr>
+<tr><td id=АккордеонПродажа83 style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_passive>Продажа</td></tr>
+<tr><td id=АккордеонПокупка84 style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_passive>Покупка</td></tr>
+<tr><td id=АккордеонНастройки85 style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_passive>Настройки</td></tr>
+<tr><td id=АккордеонСправочники86 style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_passive>Справочники</td></tr>
+<tr><td style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_down></td></tr>
+
+</table>
+</BODY>
+
+</HTML>
